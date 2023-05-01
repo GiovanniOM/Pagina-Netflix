@@ -1,0 +1,179 @@
+*{
+
+    padding: 0%;
+    margin: 0%
+    
+}
+
+header{
+    background-color: black;
+}
+.barraSuperior{
+    background-color: black;
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.barraSuperior img{
+    align-self: flex-start;
+    width: 125px;
+    height: 90px;
+    margin-right: 50px;
+}
+
+nav{
+    align-self: center;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline-block
+    
+}
+nav ul li a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+    padding: 20px;
+}
+nav ul li:hover {
+    background: grey
+}
+
+.Espacio{
+    flex-grow: 1;
+}
+
+.btnEncabezado{
+    background-size: cover;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    border: none;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btnEncabezado:hover{
+    border-bottom: 3px solid gray;
+}
+
+#btnLupa{
+    background-image: url(/Imagenes/lupa.png);
+}
+
+
+#btnCategoria{
+    color: white;
+    font-size: small;
+    text-decoration:double;
+    width: 60px;
+}
+
+#btnNotificacion{
+    background-image: url(/Imagenes/notificar.png);
+}
+
+#btnLogo{
+    background-image: url(/Imagenes/usuario.png);
+    background-size: cover;
+    height: 80px;
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+.peliculaPrincipal{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-image: url(/Imagenes/fondo.jpg);
+    background-size: cover
+    
+    
+}
+
+.peliculaInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.peliculaInfo h1{
+    font-size: 80px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.peliculaInfo p{
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 40rem;
+}
+
+.botonesPeli{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 100px;
+}
+.btnPP{
+    background-color:cornflowerblue;
+    height: 40px;
+    width: 200px;
+    align-self: center;
+    border: none;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.btnPP:hover{
+    background: gray;
+}
+
+body{
+    background-color: black;
+}
+
+
+.Estrenos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.Estrenos h2{
+    font-size: 30px;
+    color: white;
+}
+
+.Peliculas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.imagenes{
+    height: 300px;
+    width: 440px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
